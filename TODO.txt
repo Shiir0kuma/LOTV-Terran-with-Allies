@@ -1,0 +1,9 @@
+- Which mission unlock which units
+- Upgrades with mission
+
+- Find Spear of Adun utility
+
+
+---- AFTER CAMPAIGN FINISH (FROM UPGRADE) ----
+
+Add war concil variant for units with custom models and units
