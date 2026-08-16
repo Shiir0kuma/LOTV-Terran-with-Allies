@@ -1,4 +1,5 @@
 include "TriggerLibs/NativeLib"
+include "TriggerLibs/VoidCampaignLib"
 
 include "Lib422022CB_h"
 
@@ -8,6 +9,7 @@ include "Lib422022CB_h"
 // External Library Initialization
 void lib422022CB_InitLibraries () {
     libNtve_InitVariables();
+    libVoiC_InitVariables();
 }
 
 // Triggers
@@ -36,12 +38,21 @@ void lib422022CB_gt_DisableAchievements_Init () {
 //--------------------------------------------------------------------------------------------------
 bool lib422022CB_gt_UnlockUnits_Func (bool testConds, bool runActions) {
     // Automatic Variable Declarations
+    // Actions
+    if (!runActions) {
+        return true;
+    }
+
+    if (((libVoiC_gf_MissionStatus("PAiur01") == libVoiC_ge_MissionStatus_Completed) || (libVoiC_gf_CurrentMap() == "PAiur01"))) {
+    }
+
     return true;
 }
 
 //--------------------------------------------------------------------------------------------------
 void lib422022CB_gt_UnlockUnits_Init () {
     lib422022CB_gt_UnlockUnits = TriggerCreate("lib422022CB_gt_UnlockUnits_Func");
+    TriggerAddEventMapInit(lib422022CB_gt_UnlockUnits);
 }
 
 void lib422022CB_InitTriggers () {

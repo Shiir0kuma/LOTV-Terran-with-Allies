@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Catalog>
     <CUnit id="HerculesLander">
-        <AbilArray Link="BarracksTrain"/>
-        <AbilArray Link="FactoryAddOns"/>
-        <AbilArray Link="StarportTrain"/>
         <AbilArray Link="TrainHercules"/>
+        <AbilArray Link="Rally"/>
         <CardLayouts index="0">
             <LayoutButtons>
                 <Face value="Barracks"/>
@@ -14,17 +12,52 @@
                 <Row value="0"/>
                 <Column value="0"/>
             </LayoutButtons>
-            <LayoutButtons Face="Factory" Row="0" Column="1"/>
-            <LayoutButtons Face="Starport" Row="0" Column="2"/>
-            <LayoutButtons Face="EngineeringBay" Row="1" Column="0"/>
-            <LayoutButtons Face="Armory" Row="1" Column="1"/>
+            <LayoutButtons>
+                <Face value="Factory"/>
+                <Type value="Submenu"/>
+                <SubmenuCardId value="0003"/>
+                <SubmenuIsSticky value="1"/>
+                <Row value="0"/>
+                <Column value="1"/>
+            </LayoutButtons>
+            <LayoutButtons>
+                <Face value="Starport"/>
+                <Type value="Submenu"/>
+                <SubmenuCardId value="0004"/>
+                <SubmenuIsSticky value="1"/>
+                <Row value="0"/>
+                <Column value="2"/>
+            </LayoutButtons>
+            <LayoutButtons Face="Rally" Type="AbilCmd" AbilCmd="Rally,255" Row="2" Column="4"/>
         </CardLayouts>
         <CardLayouts CardId="0002">
-            <LayoutButtons Face="Marine" Type="AbilCmd" AbilCmd="BarracksTrain,255" Row="0" Column="0"/>
-            <LayoutButtons Face="Medic" Type="AbilCmd" Row="0" Column="1"/>
-            <LayoutButtons Face="Marauder" Type="AbilCmd" Row="0" Column="2"/>
+            <LayoutButtons Face="Marine" Type="AbilCmd" AbilCmd="TrainHercules,Train1" Row="0" Column="0"/>
+            <LayoutButtons Face="Medic" Type="AbilCmd" AbilCmd="TrainHercules,Train4" Row="0" Column="1"/>
+            <LayoutButtons Face="Marauder" Type="AbilCmd" AbilCmd="TrainHercules,Train2" Row="0" Column="2"/>
             <LayoutButtons Face="Cancel" Type="CancelSubmenu" Row="2" Column="4"/>
-            <LayoutButtons Face="Marine" Type="AbilCmd" AbilCmd="TrainHercules,Train1" Row="1" Column="0"/>
+            <LayoutButtons Face="Reaper" Type="AbilCmd" AbilCmd="TrainHercules,Train5" Row="1" Column="0"/>
+            <LayoutButtons Face="Firebat" Type="AbilCmd" AbilCmd="TrainHercules,Train3" Row="0" Column="3"/>
+            <LayoutButtons Face="Ghost" Type="AbilCmd" AbilCmd="TrainHercules,Train6" Row="1" Column="1"/>
+        </CardLayouts>
+        <CardLayouts CardId="0003">
+            <LayoutButtons Face="Vulture" Type="AbilCmd" AbilCmd="TrainHercules,Train8" Row="0" Column="0"/>
+            <LayoutButtons Face="Hellion" Type="AbilCmd" AbilCmd="TrainHercules,Train9" Row="0" Column="1"/>
+            <LayoutButtons Face="Goliath" Type="AbilCmd" AbilCmd="TrainHercules,Train10" Row="0" Column="2"/>
+            <LayoutButtons Face="Diamondback" Type="AbilCmd" AbilCmd="TrainHercules,Train11" Row="0" Column="3"/>
+            <LayoutButtons Face="Cancel" Type="CancelSubmenu" Row="2" Column="4"/>
+            <LayoutButtons Face="SiegeTank" Type="AbilCmd" AbilCmd="TrainHercules,Train12" Row="1" Column="0"/>
+            <LayoutButtons Face="Thor" Type="AbilCmd" AbilCmd="TrainHercules,Train13" Row="1" Column="1"/>
+            <LayoutButtons Face="Predator" Type="AbilCmd" AbilCmd="TrainHercules,Train7" Row="1" Column="2"/>
+        </CardLayouts>
+        <CardLayouts CardId="0004">
+            <LayoutButtons Face="VikingFighter" Type="AbilCmd" AbilCmd="TrainHercules,Train14" Row="0" Column="0"/>
+            <LayoutButtons Face="Medivac" Type="AbilCmd" AbilCmd="TrainHercules,Train15" Row="0" Column="1"/>
+            <LayoutButtons Face="Wraith" Type="AbilCmd" AbilCmd="TrainHercules,Train16" Row="0" Column="2"/>
+            <LayoutButtons Face="Banshee" Type="AbilCmd" AbilCmd="TrainHercules,Train17" Row="0" Column="3"/>
+            <LayoutButtons Face="Raven" Type="AbilCmd" AbilCmd="TrainHercules,Train19" Row="1" Column="0"/>
+            <LayoutButtons Face="BuildScienceVessel" Type="AbilCmd" AbilCmd="TrainHercules,Train18" Row="1" Column="1"/>
+            <LayoutButtons Face="Battlecruiser" Type="AbilCmd" AbilCmd="TrainHercules,Train20" Row="1" Column="2"/>
+            <LayoutButtons Face="Cancel" Type="CancelSubmenu" Row="2" Column="4"/>
         </CardLayouts>
     </CUnit>
 </Catalog>
