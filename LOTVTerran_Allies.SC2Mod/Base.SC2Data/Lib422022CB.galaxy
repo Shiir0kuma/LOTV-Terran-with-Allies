@@ -1,0 +1,67 @@
+include "TriggerLibs/NativeLib"
+
+include "Lib422022CB_h"
+
+//--------------------------------------------------------------------------------------------------
+// Library: LOTV Terran Allies
+//--------------------------------------------------------------------------------------------------
+// External Library Initialization
+void lib422022CB_InitLibraries () {
+    libNtve_InitVariables();
+}
+
+// Triggers
+//--------------------------------------------------------------------------------------------------
+// Trigger: Disable Achievements
+//--------------------------------------------------------------------------------------------------
+bool lib422022CB_gt_DisableAchievements_Func (bool testConds, bool runActions) {
+    // Automatic Variable Declarations
+    // Actions
+    if (!runActions) {
+        return true;
+    }
+
+    AchievementsDisable(1);
+    return true;
+}
+
+//--------------------------------------------------------------------------------------------------
+void lib422022CB_gt_DisableAchievements_Init () {
+    lib422022CB_gt_DisableAchievements = TriggerCreate("lib422022CB_gt_DisableAchievements_Func");
+    TriggerAddEventMapInit(lib422022CB_gt_DisableAchievements);
+}
+
+//--------------------------------------------------------------------------------------------------
+// Trigger: Unlock Units
+//--------------------------------------------------------------------------------------------------
+bool lib422022CB_gt_UnlockUnits_Func (bool testConds, bool runActions) {
+    // Automatic Variable Declarations
+    return true;
+}
+
+//--------------------------------------------------------------------------------------------------
+void lib422022CB_gt_UnlockUnits_Init () {
+    lib422022CB_gt_UnlockUnits = TriggerCreate("lib422022CB_gt_UnlockUnits_Func");
+}
+
+void lib422022CB_InitTriggers () {
+    lib422022CB_gt_DisableAchievements_Init();
+    lib422022CB_gt_UnlockUnits_Init();
+}
+
+//--------------------------------------------------------------------------------------------------
+// Library Initialization
+//--------------------------------------------------------------------------------------------------
+bool lib422022CB_InitLib_completed = false;
+
+void lib422022CB_InitLib () {
+    if (lib422022CB_InitLib_completed) {
+        return;
+    }
+
+    lib422022CB_InitLib_completed = true;
+
+    lib422022CB_InitLibraries();
+    lib422022CB_InitTriggers();
+}
+

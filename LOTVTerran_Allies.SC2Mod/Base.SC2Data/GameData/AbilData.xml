@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CAbilTrain id="TrainHercules">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
+        <InfoArray index="Train1" Time="25">
+            <Button DefaultButtonFace="Marine"/>
+            <Unit value="Marine"/>
+        </InfoArray>
+    </CAbilTrain>
+</Catalog>
