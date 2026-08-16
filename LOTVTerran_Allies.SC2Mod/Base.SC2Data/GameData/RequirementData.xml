@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CRequirement id="HerculesUnlockMarine">
+        <EditorCategories value="Race:Terran,TechType:Unit"/>
+        <NodeArray index="Show" Link="AllowBehaviorHerculesUnlockMarine14"/>
+    </CRequirement>
+    <CRequirement id="HerculesUnlockMarine2">
+        <EditorCategories value="Race:Terran,TechType:Unit"/>
+        <NodeArray index="Show" Link="AllowBehaviorHerculesUnlockMarine"/>
+    </CRequirement>
+    <CRequirement id="HerculesUnlockMarine210">
+        <EditorCategories value="Race:Terran,TechType:Unit"/>
+        <NodeArray index="Show" Link="AllowBehaviorHerculesUnlockMarine6"/>
+    </CRequirement>
+    <CRequirement id="HerculesUnlockMarine2102">
+        <EditorCategories value="Race:Terran,TechType:Unit"/>
+        <NodeArray index="Show" Link="AllowBehaviorHerculesUnlockMarine9"/>
+    </CRequirement>
+    <CRequirement id="HerculesUnlockMarine211">
+        <EditorCategories value="Race:Terran,TechType:Unit"/>
+        <NodeArray index="Show" Link="AllowBehaviorHerculesUnlockMarine3"/>
+    </CRequirement>
+    <CRequirement id="HerculesUnlockMarine212">
+        <EditorCategories value="Race:Terran,TechType:Unit"/>
+        <NodeArray index="Show" Link="AllowBehaviorHerculesUnlockMarine13"/>
+    </CRequirement>
+    <CRequirement id="HerculesUnlockMarine213">
+        <EditorCategories value="Race:Terran,TechType:Unit"/>
+        <NodeArray index="Show" Link="AllowBehaviorHerculesUnlockMarine2"/>
+    </CRequirement>
+    <CRequirement id="HerculesUnlockMarine214">
+        <EditorCategories value="Race:Terran,TechType:Unit"/>
+        <NodeArray index="Show" Link="AllowBehaviorHerculesUnlockMarine15"/>
+    </CRequirement>
+    <CRequirement id="HerculesUnlockMarine215">
+        <EditorCategories value="Race:Terran,TechType:Unit"/>
+        <NodeArray index="Show" Link="AllowBehaviorHerculesUnlockMarine16"/>
+    </CRequirement>
+    <CRequirement id="HerculesUnlockMarine216">
+        <EditorCategories value="Race:Terran,TechType:Unit"/>
+        <NodeArray index="Show" Link="AllowBehaviorHerculesUnlockMarine17"/>
+    </CRequirement>
+    <CRequirement id="HerculesUnlockMarine217">
+        <EditorCategories value="Race:Terran,TechType:Unit"/>
+        <NodeArray index="Show" Link="AllowBehaviorHerculesUnlockMarine4"/>
+    </CRequirement>
+    <CRequirement id="HerculesUnlockMarine218">
+        <EditorCategories value="Race:Terran,TechType:Unit"/>
+        <NodeArray index="Show" Link="AllowBehaviorHerculesUnlockMarine18"/>
+    </CRequirement>
+    <CRequirement id="HerculesUnlockMarine22">
+        <EditorCategories value="Race:Terran,TechType:Unit"/>
+        <NodeArray index="Show" Link="AllowBehaviorHerculesUnlockMarine12"/>
+    </CRequirement>
+    <CRequirement id="HerculesUnlockMarine23">
+        <EditorCategories value="Race:Terran,TechType:Unit"/>
+        <NodeArray index="Show" Link="AllowBehaviorHerculesUnlockMarine20"/>
+    </CRequirement>
+    <CRequirement id="HerculesUnlockMarine24">
+        <EditorCategories value="Race:Terran,TechType:Unit"/>
+        <NodeArray index="Show" Link="AllowBehaviorHerculesUnlockMarine19"/>
+    </CRequirement>
+    <CRequirement id="HerculesUnlockMarine25">
+        <EditorCategories value="Race:Terran,TechType:Unit"/>
+        <NodeArray index="Show" Link="AllowBehaviorHerculesUnlockMarine11"/>
+    </CRequirement>
+    <CRequirement id="HerculesUnlockMarine26">
+        <EditorCategories value="Race:Terran,TechType:Unit"/>
+        <NodeArray index="Show" Link="AllowBehaviorHerculesUnlockMarine5"/>
+    </CRequirement>
+    <CRequirement id="HerculesUnlockMarine27">
+        <EditorCategories value="Race:Terran,TechType:Unit"/>
+        <NodeArray index="Show" Link="AllowBehaviorHerculesUnlockMarine7"/>
+    </CRequirement>
+    <CRequirement id="HerculesUnlockMarine28">
+        <EditorCategories value="Race:Terran,TechType:Unit"/>
+        <NodeArray index="Show" Link="AllowBehaviorHerculesUnlockMarine8"/>
+    </CRequirement>
+    <CRequirement id="HerculesUnlockMarine29">
+        <EditorCategories value="Race:Terran,TechType:Unit"/>
+        <NodeArray index="Show" Link="AllowBehaviorHerculesUnlockMarine10"/>
+    </CRequirement>
+</Catalog>

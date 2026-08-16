@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Catalog>
+    <CUnit id="Hercules">
+        <LifeStart value="1000"/>
+        <LifeMax value="1000"/>
+        <LifeArmor value="5"/>
+        <LifeRegenDelay value="15"/>
+        <LifeRegenRate value="2"/>
+        <ShieldsStart value="500"/>
+        <ShieldsMax value="500"/>
+        <ShieldArmor value="1"/>
+        <ShieldRegenDelay value="5"/>
+        <ShieldRegenRate value="5"/>
+        <ShieldArmorLevel value="1"/>
+        <Food value="0"/>
+    </CUnit>
     <CUnit id="HerculesLander">
         <AbilArray Link="TrainHercules"/>
         <AbilArray Link="Rally"/>
+        <AbilArray Link="que5"/>
+        <AbilArray Link="BuildInProgress"/>
         <CardLayouts index="0">
             <LayoutButtons>
                 <Face value="Barracks"/>
@@ -35,6 +51,7 @@
             <LayoutButtons Face="Medic" Type="AbilCmd" AbilCmd="TrainHercules,Train4" Row="0" Column="1"/>
             <LayoutButtons Face="Marauder" Type="AbilCmd" AbilCmd="TrainHercules,Train2" Row="0" Column="2"/>
             <LayoutButtons Face="Cancel" Type="CancelSubmenu" Row="2" Column="4"/>
+            <LayoutButtons Face="CancelBuilding" Type="AbilCmd" AbilCmd="BuildInProgress,Cancel" Row="2" Column="4"/>
             <LayoutButtons Face="Reaper" Type="AbilCmd" AbilCmd="TrainHercules,Train5" Row="1" Column="0"/>
             <LayoutButtons Face="Firebat" Type="AbilCmd" AbilCmd="TrainHercules,Train3" Row="0" Column="3"/>
             <LayoutButtons Face="Ghost" Type="AbilCmd" AbilCmd="TrainHercules,Train6" Row="1" Column="1"/>
@@ -45,6 +62,7 @@
             <LayoutButtons Face="Goliath" Type="AbilCmd" AbilCmd="TrainHercules,Train10" Row="0" Column="2"/>
             <LayoutButtons Face="Diamondback" Type="AbilCmd" AbilCmd="TrainHercules,Train11" Row="0" Column="3"/>
             <LayoutButtons Face="Cancel" Type="CancelSubmenu" Row="2" Column="4"/>
+            <LayoutButtons Face="CancelBuilding" Type="AbilCmd" AbilCmd="BuildInProgress,Cancel" Row="2" Column="4"/>
             <LayoutButtons Face="SiegeTank" Type="AbilCmd" AbilCmd="TrainHercules,Train12" Row="1" Column="0"/>
             <LayoutButtons Face="Thor" Type="AbilCmd" AbilCmd="TrainHercules,Train13" Row="1" Column="1"/>
             <LayoutButtons Face="Predator" Type="AbilCmd" AbilCmd="TrainHercules,Train7" Row="1" Column="2"/>
@@ -58,6 +76,7 @@
             <LayoutButtons Face="BuildScienceVessel" Type="AbilCmd" AbilCmd="TrainHercules,Train18" Row="1" Column="1"/>
             <LayoutButtons Face="Battlecruiser" Type="AbilCmd" AbilCmd="TrainHercules,Train20" Row="1" Column="2"/>
             <LayoutButtons Face="Cancel" Type="CancelSubmenu" Row="2" Column="4"/>
+            <LayoutButtons Face="CancelBuilding" Type="AbilCmd" AbilCmd="BuildInProgress,Cancel" Row="2" Column="4"/>
         </CardLayouts>
     </CUnit>
 </Catalog>

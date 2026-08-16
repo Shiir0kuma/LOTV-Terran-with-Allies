@@ -14,6 +14,27 @@ void lib422022CB_InitLibraries () {
 
 // Triggers
 //--------------------------------------------------------------------------------------------------
+// Trigger: PassiveIncome
+//--------------------------------------------------------------------------------------------------
+bool lib422022CB_gt_PassiveIncome_Func (bool testConds, bool runActions) {
+    // Automatic Variable Declarations
+    // Actions
+    if (!runActions) {
+        return true;
+    }
+
+    PlayerModifyPropertyInt(1, c_playerPropMinerals, c_playerPropOperAdd, 500);
+    PlayerModifyPropertyInt(1, c_playerPropVespene, c_playerPropOperSetTo, 500);
+    return true;
+}
+
+//--------------------------------------------------------------------------------------------------
+void lib422022CB_gt_PassiveIncome_Init () {
+    lib422022CB_gt_PassiveIncome = TriggerCreate("lib422022CB_gt_PassiveIncome_Func");
+    TriggerAddEventTimePeriodic(lib422022CB_gt_PassiveIncome, 60.0, c_timeGame);
+}
+
+//--------------------------------------------------------------------------------------------------
 // Trigger: Disable Achievements
 //--------------------------------------------------------------------------------------------------
 bool lib422022CB_gt_DisableAchievements_Func (bool testConds, bool runActions) {
@@ -43,7 +64,36 @@ bool lib422022CB_gt_UnlockUnits_Func (bool testConds, bool runActions) {
         return true;
     }
 
+    TechTreeBehaviorAllow(1, "HerculesUnlockMarine8", false);
+    TechTreeBehaviorAllow(1, "HerculesUnlockMarine11", false);
+    TechTreeBehaviorAllow(1, "HerculesUnlockMarine18", false);
+    TechTreeBehaviorAllow(1, "HerculesUnlockMarine3", false);
+    TechTreeBehaviorAllow(1, "HerculesUnlockMarine2", false);
+    TechTreeBehaviorAllow(1, "HerculesUnlockMarine17", false);
+    TechTreeBehaviorAllow(1, "HerculesUnlockMarine16", false);
+    TechTreeBehaviorAllow(1, "HerculesUnlockMarine12", false);
+    TechTreeBehaviorAllow(1, "HerculesUnlockMarine", false);
+    TechTreeBehaviorAllow(1, "HerculesUnlockMarine14", false);
+    TechTreeBehaviorAllow(1, "HerculesUnlockMarine6", false);
+    TechTreeBehaviorAllow(1, "HerculesUnlockMarine4", false);
+    TechTreeBehaviorAllow(1, "HerculesUnlockMarine10", false);
+    TechTreeBehaviorAllow(1, "HerculesUnlockMarine13", false);
+    TechTreeBehaviorAllow(1, "HerculesUnlockMarine9", false);
+    TechTreeBehaviorAllow(1, "HerculesUnlockMarine19", false);
+    TechTreeBehaviorAllow(1, "HerculesUnlockMarine20", false);
+    TechTreeBehaviorAllow(1, "HerculesUnlockMarine5", false);
+    TechTreeBehaviorAllow(1, "HerculesUnlockMarine15", false);
+    TechTreeBehaviorAllow(1, "HerculesUnlockMarine7", false);
     if (((libVoiC_gf_MissionStatus("PAiur01") == libVoiC_ge_MissionStatus_Completed) || (libVoiC_gf_CurrentMap() == "PAiur01"))) {
+        TechTreeBehaviorAllow(1, "HerculesUnlockMarine", true);
+    }
+
+    if (((libVoiC_gf_MissionStatus("PAiur02") == libVoiC_ge_MissionStatus_Completed) || (libVoiC_gf_CurrentMap() == "PAiur02"))) {
+        TechTreeBehaviorAllow(1, "HerculesUnlockMarine14", true);
+    }
+
+    if (((libVoiC_gf_MissionStatus("PAiur03") == libVoiC_ge_MissionStatus_Completed) || (libVoiC_gf_CurrentMap() == "PAiur03"))) {
+        TechTreeBehaviorAllow(1, "HerculesUnlockMarine14", true);
     }
 
     return true;
@@ -56,6 +106,7 @@ void lib422022CB_gt_UnlockUnits_Init () {
 }
 
 void lib422022CB_InitTriggers () {
+    lib422022CB_gt_PassiveIncome_Init();
     lib422022CB_gt_DisableAchievements_Init();
     lib422022CB_gt_UnlockUnits_Init();
 }

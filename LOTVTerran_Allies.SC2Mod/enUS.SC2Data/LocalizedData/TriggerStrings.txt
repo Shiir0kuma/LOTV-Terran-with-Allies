@@ -1,3 +1,4 @@
 ﻿Library/Name/422022CB=LOTV Terran Allies
+Trigger/Name/lib_422022CB_0A148076=PassiveIncome
 Trigger/Name/lib_422022CB_2A10CD57=Disable Achievements
 Trigger/Name/lib_422022CB_D3680669=Unlock Units

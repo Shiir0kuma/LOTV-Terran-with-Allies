@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CRequirementAllowBehavior id="AllowBehaviorHerculesUnlockMarine">
+        <Link value="HerculesUnlockMarine"/>
+    </CRequirementAllowBehavior>
+    <CRequirementAllowBehavior id="AllowBehaviorHerculesUnlockMarine10">
+        <Tooltip value="RequirementNode/Tooltip/##id##"/>
+        <Link value="HerculesUnlockMarine10"/>
+    </CRequirementAllowBehavior>
+    <CRequirementAllowBehavior id="AllowBehaviorHerculesUnlockMarine11">
+        <Tooltip value="RequirementNode/Tooltip/##id##"/>
+        <Link value="HerculesUnlockMarine11"/>
+    </CRequirementAllowBehavior>
+    <CRequirementAllowBehavior id="AllowBehaviorHerculesUnlockMarine12">
+        <Tooltip value="RequirementNode/Tooltip/##id##"/>
+        <Link value="HerculesUnlockMarine12"/>
+    </CRequirementAllowBehavior>
+    <CRequirementAllowBehavior id="AllowBehaviorHerculesUnlockMarine13">
+        <Tooltip value="RequirementNode/Tooltip/##id##"/>
+        <Link value="HerculesUnlockMarine13"/>
+    </CRequirementAllowBehavior>
+    <CRequirementAllowBehavior id="AllowBehaviorHerculesUnlockMarine14">
+        <Tooltip value="RequirementNode/Tooltip/##id##"/>
+        <Link value="HerculesUnlockMarine14"/>
+    </CRequirementAllowBehavior>
+    <CRequirementAllowBehavior id="AllowBehaviorHerculesUnlockMarine15">
+        <Tooltip value="RequirementNode/Tooltip/##id##"/>
+        <Link value="HerculesUnlockMarine15"/>
+    </CRequirementAllowBehavior>
+    <CRequirementAllowBehavior id="AllowBehaviorHerculesUnlockMarine16">
+        <Tooltip value="RequirementNode/Tooltip/##id##"/>
+        <Link value="HerculesUnlockMarine16"/>
+    </CRequirementAllowBehavior>
+    <CRequirementAllowBehavior id="AllowBehaviorHerculesUnlockMarine17">
+        <Tooltip value="RequirementNode/Tooltip/##id##"/>
+        <Link value="HerculesUnlockMarine17"/>
+    </CRequirementAllowBehavior>
+    <CRequirementAllowBehavior id="AllowBehaviorHerculesUnlockMarine18">
+        <Tooltip value="RequirementNode/Tooltip/##id##"/>
+        <Link value="HerculesUnlockMarine18"/>
+    </CRequirementAllowBehavior>
+    <CRequirementAllowBehavior id="AllowBehaviorHerculesUnlockMarine19">
+        <Tooltip value="RequirementNode/Tooltip/##id##"/>
+        <Link value="HerculesUnlockMarine19"/>
+    </CRequirementAllowBehavior>
+    <CRequirementAllowBehavior id="AllowBehaviorHerculesUnlockMarine2">
+        <Link value="HerculesUnlockMarine2"/>
+    </CRequirementAllowBehavior>
+    <CRequirementAllowBehavior id="AllowBehaviorHerculesUnlockMarine20">
+        <Tooltip value="RequirementNode/Tooltip/##id##"/>
+        <Link value="HerculesUnlockMarine20"/>
+    </CRequirementAllowBehavior>
+    <CRequirementAllowBehavior id="AllowBehaviorHerculesUnlockMarine3">
+        <Tooltip value="RequirementNode/Tooltip/##id##"/>
+        <Link value="HerculesUnlockMarine3"/>
+    </CRequirementAllowBehavior>
+    <CRequirementAllowBehavior id="AllowBehaviorHerculesUnlockMarine4">
+        <Tooltip value="RequirementNode/Tooltip/##id##"/>
+        <Link value="HerculesUnlockMarine4"/>
+    </CRequirementAllowBehavior>
+    <CRequirementAllowBehavior id="AllowBehaviorHerculesUnlockMarine5">
+        <Tooltip value="RequirementNode/Tooltip/##id##"/>
+        <Link value="HerculesUnlockMarine5"/>
+    </CRequirementAllowBehavior>
+    <CRequirementAllowBehavior id="AllowBehaviorHerculesUnlockMarine6">
+        <Tooltip value="RequirementNode/Tooltip/##id##"/>
+        <Link value="HerculesUnlockMarine6"/>
+    </CRequirementAllowBehavior>
+    <CRequirementAllowBehavior id="AllowBehaviorHerculesUnlockMarine7">
+        <Tooltip value="RequirementNode/Tooltip/##id##"/>
+        <Link value="HerculesUnlockMarine7"/>
+    </CRequirementAllowBehavior>
+    <CRequirementAllowBehavior id="AllowBehaviorHerculesUnlockMarine8">
+        <Tooltip value="RequirementNode/Tooltip/##id##"/>
+        <Link value="HerculesUnlockMarine8"/>
+    </CRequirementAllowBehavior>
+    <CRequirementAllowBehavior id="AllowBehaviorHerculesUnlockMarine9">
+        <Tooltip value="RequirementNode/Tooltip/##id##"/>
+        <Link value="HerculesUnlockMarine9"/>
+    </CRequirementAllowBehavior>
+</Catalog>
