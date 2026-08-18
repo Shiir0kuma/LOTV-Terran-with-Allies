@@ -93,7 +93,8 @@ bool lib422022CB_gt_UnlockUnits_Func (bool testConds, bool runActions) {
     }
 
     if (((libVoiC_gf_MissionStatus("PAiur03") == libVoiC_ge_MissionStatus_Completed) || (libVoiC_gf_CurrentMap() == "PAiur03"))) {
-        TechTreeBehaviorAllow(1, "HerculesUnlockMarine14", true);
+        TechTreeBehaviorAllow(1, "HerculesUnlockMarine12", true);
+        TechTreeBehaviorAllow(1, "HerculesUnlockMarine3", true);
     }
 
     return true;
@@ -105,10 +106,24 @@ void lib422022CB_gt_UnlockUnits_Init () {
     TriggerAddEventMapInit(lib422022CB_gt_UnlockUnits);
 }
 
+//--------------------------------------------------------------------------------------------------
+// Trigger: Unlock Upgrades
+//--------------------------------------------------------------------------------------------------
+bool lib422022CB_gt_UnlockUpgrades_Func (bool testConds, bool runActions) {
+    // Automatic Variable Declarations
+    return true;
+}
+
+//--------------------------------------------------------------------------------------------------
+void lib422022CB_gt_UnlockUpgrades_Init () {
+    lib422022CB_gt_UnlockUpgrades = TriggerCreate("lib422022CB_gt_UnlockUpgrades_Func");
+}
+
 void lib422022CB_InitTriggers () {
     lib422022CB_gt_PassiveIncome_Init();
     lib422022CB_gt_DisableAchievements_Init();
     lib422022CB_gt_UnlockUnits_Init();
+    lib422022CB_gt_UnlockUpgrades_Init();
 }
 
 //--------------------------------------------------------------------------------------------------

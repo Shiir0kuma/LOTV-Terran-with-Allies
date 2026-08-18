@@ -4,7 +4,7 @@ asset=Assets\Textures\WayPointLine.dds
 asset=Assets\UI\Cursors\WayPointConfirm_Void\WayPointConfirm_Void.m3
 Actor=CommandUIHarnessAttackProtoss,CommandUIHarnessAttackTerran,CommandUIHarnessAttackZerg,CommandUIHarnessConfirmProtoss,CommandUIHarnessConfirmTerran,CommandUIHarnessConfirmZerg,CommandUIHarnessMoveProtoss,CommandUIHarnessMoveTerran,CommandUIHarnessMoveZerg,CommandUIHarnessRallyProtoss,CommandUIHarnessRallyTerran,CommandUIHarnessRallyZerg,TerrainMgr
 Alert=TrainComplete,TrainError
-Unit=Banshee,Battlecruiser,Diamondback,Firebat,Ghost,Goliath,Hellion,Marauder,Marine,Medic,Medivac,Predator,Raven,Reaper,ScienceVessel,SiegeTankSkinPreview,ThorAP,VikingFighter,Vulture,Wraith
+Unit=Banshee,Battlecruiser,Diamondback,Firebat,Ghost,Goliath,Hellion,Marauder,Marine,Medic,Medivac,Predator,Raven,Reaper,ScienceVessel,SiegeTank,ThorAP,VikingFighter,Vulture,Wraith
 
 [Behavior]
 id=HerculesUnlockMarine

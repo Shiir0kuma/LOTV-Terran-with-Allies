@@ -5,6 +5,7 @@
             <Item Type="Trigger" Library="422022CB" Id="0A148076"/>
             <Item Type="Trigger" Library="422022CB" Id="2A10CD57"/>
             <Item Type="Trigger" Library="422022CB" Id="D3680669"/>
+            <Item Type="Trigger" Library="422022CB" Id="3932EB2D"/>
         </Root>
         <Element Type="Trigger" Id="0A148076">
             <Event Type="FunctionCall" Library="422022CB" Id="6E2111EE"/>
@@ -715,6 +716,7 @@
         <Element Type="FunctionCall" Id="4EBAEF4F">
             <FunctionDef Type="FunctionDef" Library="Ntve" Id="00000137"/>
             <FunctionCall Type="FunctionCall" Library="422022CB" Id="79011C27"/>
+            <FunctionCall Type="FunctionCall" Library="422022CB" Id="7AD3990B"/>
             <FunctionCall Type="FunctionCall" Library="422022CB" Id="3BD540BE"/>
         </Element>
         <Element Type="FunctionCall" Id="79011C27">
@@ -735,7 +737,29 @@
         </Element>
         <Element Type="Param" Id="4EC4B071">
             <ParameterDef Type="ParamDef" Library="Ntve" Id="00000280"/>
-            <Value>HerculesUnlockMarine14</Value>
+            <Value>HerculesUnlockMarine12</Value>
+            <ValueType Type="gamelink"/>
+            <ValueGameType Type="Behavior"/>
+        </Element>
+        <Element Type="FunctionCall" Id="7AD3990B">
+            <FunctionDef Type="FunctionDef" Library="Ntve" Id="00000171"/>
+            <SubFunctionType Type="SubFuncType" Library="Ntve" Id="00000004"/>
+            <Parameter Type="Param" Library="422022CB" Id="8F8460DC"/>
+            <Parameter Type="Param" Library="422022CB" Id="73F23C45"/>
+            <Parameter Type="Param" Library="422022CB" Id="D31B50BB"/>
+        </Element>
+        <Element Type="Param" Id="8F8460DC">
+            <ParameterDef Type="ParamDef" Library="Ntve" Id="00000279"/>
+            <Value>1</Value>
+            <ValueType Type="int"/>
+        </Element>
+        <Element Type="Param" Id="73F23C45">
+            <ParameterDef Type="ParamDef" Library="Ntve" Id="00000281"/>
+            <Preset Type="PresetValue" Library="Ntve" Id="00000106"/>
+        </Element>
+        <Element Type="Param" Id="D31B50BB">
+            <ParameterDef Type="ParamDef" Library="Ntve" Id="00000280"/>
+            <Value>HerculesUnlockMarine3</Value>
             <ValueType Type="gamelink"/>
             <ValueGameType Type="Behavior"/>
         </Element>
@@ -797,6 +821,8 @@
             <Value>PAiur03</Value>
             <ValueType Type="gamelink"/>
             <ValueGameType Type="Map"/>
+        </Element>
+        <Element Type="Trigger" Id="3932EB2D">
         </Element>
     </Library>
 </TriggerData>

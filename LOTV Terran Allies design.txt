@@ -3,7 +3,7 @@ LOTV Terran Allies design.
 Allies :
 
 - Terran Dominion (Daelaam)
-- Daelaam (Dominion)
+- Daelaam (Dominion) ???? (not sure)
 - Spec Ops (Nerazim)
 - Umojan (Purifier)
 - Kel Morian (Tal'darim)
@@ -39,3 +39,12 @@ no build mission
 
 Main Campaign :
 
+
+For Aiur! :
+
+Breakout style mission. First you will need to secure a landing zone for your ally. Then you will get your hercules and your ally will start sending waves and secure the ground you cleared.
+
+Hatchery will now drop an outpost that will send waves of more Advanced units.
+
+
+The Growing Shadow :

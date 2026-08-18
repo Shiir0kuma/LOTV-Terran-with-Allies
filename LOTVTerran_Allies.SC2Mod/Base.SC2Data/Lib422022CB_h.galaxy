@@ -7,4 +7,5 @@ include "TriggerLibs/natives"
 trigger lib422022CB_gt_PassiveIncome;
 trigger lib422022CB_gt_DisableAchievements;
 trigger lib422022CB_gt_UnlockUnits;
+trigger lib422022CB_gt_UnlockUpgrades;
 

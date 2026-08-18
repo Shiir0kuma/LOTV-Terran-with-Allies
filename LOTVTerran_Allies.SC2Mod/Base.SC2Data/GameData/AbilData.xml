@@ -48,7 +48,7 @@
         </InfoArray>
         <InfoArray index="Train12" Time="40">
             <Button DefaultButtonFace="SiegeTank" Requirements="HerculesUnlockMarine24"/>
-            <Unit value="SiegeTankSkinPreview"/>
+            <Unit value="SiegeTank"/>
         </InfoArray>
         <InfoArray index="Train13" Time="50">
             <Button DefaultButtonFace="Thor" Requirements="HerculesUnlockMarine23"/>
