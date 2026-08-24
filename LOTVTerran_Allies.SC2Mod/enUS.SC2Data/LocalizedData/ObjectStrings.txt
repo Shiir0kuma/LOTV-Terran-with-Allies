@@ -18,6 +18,7 @@ Behavior/Name/HerculesUnlockMarine6=HerculesUnlockMedivac
 Behavior/Name/HerculesUnlockMarine7=HerculesUnlockWraith
 Behavior/Name/HerculesUnlockMarine8=HerculesUnlockBanshee
 Behavior/Name/HerculesUnlockMarine9=HerculesUnlockScienceVessel
+Model/Name/test_model=test_model
 Requirement/Name/HerculesUnlockMarine=HerculesUnlockMedic
 Requirement/Name/HerculesUnlockMarine2=HerculesUnlockMarine
 Requirement/Name/HerculesUnlockMarine210=HerculesUnlockMedivac

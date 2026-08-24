@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CModel id="TestSCVModel">
+        <EditorCategories value="Race:Terran"/>
+        <Model value="Assets\Units\Terran\SCV\TestSCV.m3"/>
+        <Image value="Assets\Textures\test_scv_portrait.dds"/>
+    </CModel>
+</Catalog>

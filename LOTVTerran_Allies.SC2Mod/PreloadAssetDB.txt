@@ -78,6 +78,12 @@ Effect=SplashDamage
 Race=Prot,Terr,Zerg
 Sound=Zerg_CreepDecay,Zerg_CreepGrow
 
+[Model]
+id=TestSCVModel
+asset=Assets\Textures\test_scv_portrait.dds
+asset=Assets\Units\Terran\SCV\TestSCV.m3
+Actor=CommandUIHarnessAttackProtoss,CommandUIHarnessAttackTerran,CommandUIHarnessAttackZerg,CommandUIHarnessConfirmProtoss,CommandUIHarnessConfirmTerran,CommandUIHarnessConfirmZerg,CommandUIHarnessMoveProtoss,CommandUIHarnessMoveTerran,CommandUIHarnessMoveZerg,CommandUIHarnessRallyProtoss,CommandUIHarnessRallyTerran,CommandUIHarnessRallyZerg,TerrainMgr
+
 [Unit]
 id=HerculesLander
 Abil=BuildInProgress,HerculesLiftOff,HerculesTransport,Rally,TrainHercules,move,que5
