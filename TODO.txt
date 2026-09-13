@@ -1,4 +1,4 @@
-- Which mission unlock which units
+which mission unlock which units
 - Upgrades with mission
 
 - Find Spear of Adun utility

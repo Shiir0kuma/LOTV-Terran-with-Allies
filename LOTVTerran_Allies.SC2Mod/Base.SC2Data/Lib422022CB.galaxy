@@ -119,11 +119,46 @@ void lib422022CB_gt_UnlockUpgrades_Init () {
     lib422022CB_gt_UnlockUpgrades = TriggerCreate("lib422022CB_gt_UnlockUpgrades_Func");
 }
 
+//--------------------------------------------------------------------------------------------------
+// Trigger: InitPlayer
+//--------------------------------------------------------------------------------------------------
+bool lib422022CB_gt_InitPlayer_Func (bool testConds, bool runActions) {
+    // Variable Declarations
+    int lv_player;
+
+    // Automatic Variable Declarations
+    const int auto0654EE5A_n = 14;
+    int auto0654EE5A_i;
+
+    // Variable Initialization
+    lv_player = 2;
+
+    // Actions
+    if (!runActions) {
+        return true;
+    }
+
+    for (auto0654EE5A_i = 1; auto0654EE5A_i <= auto0654EE5A_n; auto0654EE5A_i += 1) {
+        PlayerModifyPropertyInt(lv_player, c_playerPropSuppliesMade, c_playerPropOperSetTo, 1000);
+        PlayerModifyPropertyInt(lv_player, c_playerPropMinerals, c_playerPropOperSetTo, 5000);
+        PlayerModifyPropertyInt(lv_player, c_playerPropVespene, c_playerPropOperSetTo, 5000);
+        lv_player = (lv_player+1);
+    }
+    return true;
+}
+
+//--------------------------------------------------------------------------------------------------
+void lib422022CB_gt_InitPlayer_Init () {
+    lib422022CB_gt_InitPlayer = TriggerCreate("lib422022CB_gt_InitPlayer_Func");
+    TriggerAddEventMapInit(lib422022CB_gt_InitPlayer);
+}
+
 void lib422022CB_InitTriggers () {
     lib422022CB_gt_PassiveIncome_Init();
     lib422022CB_gt_DisableAchievements_Init();
     lib422022CB_gt_UnlockUnits_Init();
     lib422022CB_gt_UnlockUpgrades_Init();
+    lib422022CB_gt_InitPlayer_Init();
 }
 
 //--------------------------------------------------------------------------------------------------
