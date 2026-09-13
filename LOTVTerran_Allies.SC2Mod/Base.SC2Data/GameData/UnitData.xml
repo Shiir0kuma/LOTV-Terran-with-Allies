@@ -17,7 +17,7 @@
     <CUnit id="HerculesLander">
         <AbilArray Link="TrainHercules"/>
         <AbilArray Link="Rally"/>
-        <AbilArray Link="que5"/>
+        <AbilArray Link="que8"/>
         <AbilArray Link="BuildInProgress"/>
         <CardLayouts index="0">
             <LayoutButtons>
