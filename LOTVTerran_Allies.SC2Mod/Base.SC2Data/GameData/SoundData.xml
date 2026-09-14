@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CSound id="Diamondback_AttackImpact2" parent="Combat">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray File="Assets\Sounds\Terran\Diamondback\Diamondback_AttackImpact0.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\Diamondback\Diamondback_AttackImpact1.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\Diamondback\Diamondback_AttackImpact2.wav"/>
+        <AssetArray File="Assets\Sounds\Terran\Diamondback\Diamondback_AttackImpact3.wav"/>
+        <Pitch value="-1.000000,1.000000"/>
+        <Volume value="-3.000000,-3.000000"/>
+    </CSound>
+</Catalog>

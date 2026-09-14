@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CEffectSet id="Diamondback2">
+        <ValidatorArray value="CasterIsNotHidden"/>
+        <EditorCategories value="Race:Terran"/>
+        <EffectArray value="DiamondbackBeam3"/>
+        <EffectArray value="BurstCapacitorsApplyAttackingBehavior"/>
+    </CEffectSet>
+    <CEffectDamage id="DiamondbackBeam3" parent="DU_WEAP">
+        <EditorCategories value="Race:Terran"/>
+        <Kind value="Ranged"/>
+        <Amount value="40"/>
+        <Death value="Blast"/>
+    </CEffectDamage>
+</Catalog>

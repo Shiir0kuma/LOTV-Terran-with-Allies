@@ -1,3 +1,8 @@
 ﻿Abil/Name/TrainHercules=Train Hercules
+Button/Tooltip/Ghost2=General of a mysterious Terran armed group
 DocInfo/DescShort=Any
 DocInfo/Name=Just Another StarCraft II Mod
+Effect/Name/Diamondback2=Eviscerator (Set)
+Effect/Name/DiamondbackBeam3=Eviscerator (Beam)
+Unit/Name/Ghost2=Shiro
+Weapon/Name/Diamondback2=Modified Rail Gun
