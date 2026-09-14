@@ -24,7 +24,7 @@
         <LifeArmorName value="Unit/LifeArmorName/TerranInfantryArmor"/>
         <EnergyStart value="50"/>
         <EnergyMax value="200"/>
-        <EnergyRegenRate value="0.5625"/>
+        <EnergyRegenRate value="2"/>
         <ShieldsStart value="200"/>
         <ShieldsMax value="200"/>
         <ShieldArmor value="1"/>
@@ -90,6 +90,7 @@
             <ChanceArray index="Idle" value="33"/>
             <ChanceArray index="Turn" value="33"/>
         </Fidget>
+        <BehaviorArray Link="Detector11"/>
     </CUnit>
     <CUnit id="Hercules">
         <LifeStart value="1000"/>

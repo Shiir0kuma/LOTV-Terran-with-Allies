@@ -12,4 +12,7 @@
         <Amount value="40"/>
         <Death value="Blast"/>
     </CEffectDamage>
+    <CEffectDamage id="NovaGadgetPulseGrenadesDamage">
+        <Amount value="50"/>
+    </CEffectDamage>
 </Catalog>
