@@ -2,17 +2,13 @@ LOTV Terran Allies design.
 
 Allies :
 
-- Terran Dominion (Daelaam)
-- Daelaam (Dominion) ???? (not sure)
-- Spec Ops (Nerazim)
-- Umojan (Purifier)
-- Kel Morian (Tal'darim)
-
-Prologue Allies :
-
-- Dominion
-- Mar Sara (SC 1 units)
-
+- Kuro's Forces
+- Daelaam
+- Nerazim
+- Tal'darim
+- SpecOps ???
+- Purifier
+- The Swarm (BroodMother ...)
 
 Missions :
 
@@ -48,3 +44,38 @@ Hatchery will now drop an outpost that will send waves of more Advanced units.
 
 
 The Growing Shadow :
+
+- Allies : Kuro's Forces, Daelaam Protoss (Early), Zeratul Warband
+
+- increase Zerg presence
+- add a huge hive (untakable)
+- Daelaam became corrupted and objective changed from reach templar base -> destroy templar base
+- Void pylon will now spawn protoss defender
+
+Spear of Adun :
+
+- Allies : Kuro's Forces, Zeratul Warband
+
+- an outpost of corrupted daelaam protoss are present close to player starting base
+destroy all photon cannon and zeratul warband will send DT to cut their nervs cords making them ally
+- Zerg base move to the last power cell (middle one)
+- previous zerg base is replace with a protoss base
+- After clearing the power cells, a 5 - 10 minutes timer start defend your main base and help your allies much as possible
+- Clearing the zerg base on the last power cell will make the last section easier
+
+
+Sky Shield :
+
+- Allies : Kuro's Forces, Terran Dominion, Daelaam Protoss
+
+- delete timer
+- Add moebius Base around the platform each one specialize on one type of unit (robotic / infantery ....)
+
+
+Brother in arms :
+
+- Allies : Kuro's Forces, Daelaam Protoss, Raynor's Raiders, Valerian Guard
+
+
+- tal'darim guard the key (they don't attack)
+- add a path with daelaam protoss, so now there is 3 path to the key (raynor - artanis - valerian)
