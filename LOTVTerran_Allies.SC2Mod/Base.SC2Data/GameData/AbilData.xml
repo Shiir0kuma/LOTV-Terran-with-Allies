@@ -55,7 +55,7 @@
         </InfoArray>
         <InfoArray index="Train13" Time="50">
             <Button DefaultButtonFace="Thor" Requirements="HerculesUnlockMarine23"/>
-            <Unit value="ThorAP"/>
+            <Unit value="Thor"/>
         </InfoArray>
         <InfoArray index="Train14" Time="35">
             <Button DefaultButtonFace="VikingFighter" Requirements="HerculesUnlockMarine26"/>
@@ -85,5 +85,102 @@
             <Button DefaultButtonFace="Battlecruiser" Requirements="HerculesUnlockMarine25"/>
             <Unit value="Battlecruiser"/>
         </InfoArray>
+        <InfoArray index="Train21" Time="45">
+            <Button DefaultButtonFace="Ghost2" Requirements="HerculesTrainShiro"/>
+            <Unit value="Ghost2"/>
+        </InfoArray>
     </CAbilTrain>
+    <CAbilResearch id="HerculesResearch">
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
+        <InfoArray index="Research1" Time="160" Upgrade="TerranInfantryWeaponsUltraCapacitorsLevel1">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="TerranInfantryWeaponsUltraCapacitorsLevel1" State="Restricted" Requirements="HerculesLearnInfWeap1"/>
+        </InfoArray>
+        <InfoArray index="Research2" Time="190" Upgrade="TerranInfantryWeaponsUltraCapacitorsLevel2">
+            <Resource index="Minerals" value="175"/>
+            <Resource index="Vespene" value="175"/>
+            <Button DefaultButtonFace="TerranInfantryWeaponsUltraCapacitorsLevel2" State="Restricted" Requirements="HerculesLearnInfWeap2"/>
+        </InfoArray>
+        <InfoArray index="Research3" Time="220" Upgrade="TerranInfantryWeaponsUltraCapacitorsLevel3">
+            <Resource index="Minerals" value="250"/>
+            <Resource index="Vespene" value="250"/>
+            <Button DefaultButtonFace="TerranInfantryWeaponsUltraCapacitorsLevel3" State="Restricted" Requirements="HerculesLearnInfWeap3"/>
+        </InfoArray>
+        <InfoArray index="Research4" Time="160" Upgrade="TerranInfantryArmorsVanadiumPlatingLevel1">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="TerranInfantryArmorVanadiumPlatingLevel1" State="Restricted" Requirements="HerculesLearnInfArm1"/>
+        </InfoArray>
+        <InfoArray index="Research5" Time="190" Upgrade="TerranInfantryArmorsVanadiumPlatingLevel2">
+            <Resource index="Minerals" value="175"/>
+            <Resource index="Vespene" value="175"/>
+            <Button DefaultButtonFace="TerranInfantryArmorVanadiumPlatingLevel2" State="Restricted" Requirements="HerculesLearnInfArm2"/>
+        </InfoArray>
+        <InfoArray index="Research6" Time="220" Upgrade="TerranInfantryArmorsVanadiumPlatingLevel3">
+            <Resource index="Minerals" value="250"/>
+            <Resource index="Vespene" value="250"/>
+            <Button DefaultButtonFace="TerranInfantryArmorVanadiumPlatingLevel3" State="Restricted" Requirements="HerculesLearnInfArm3"/>
+        </InfoArray>
+        <InfoArray index="Research7" Time="160" Upgrade="TerranVehicleWeaponsUltraCapacitorsLevel1">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="TerranVehicleWeaponsUltraCapacitorsLevel1" State="Restricted" Requirements="HerculesLearnVehWeap1"/>
+        </InfoArray>
+        <InfoArray index="Research8" Time="190" Upgrade="TerranVehicleWeaponsUltraCapacitorsLevel2">
+            <Resource index="Minerals" value="175"/>
+            <Resource index="Vespene" value="175"/>
+            <Button DefaultButtonFace="TerranVehicleWeaponsUltraCapacitorsLevel2" State="Restricted" Requirements="HerculesLearnVehWeap2"/>
+        </InfoArray>
+        <InfoArray index="Research9" Time="220" Upgrade="TerranVehicleWeaponsUltraCapacitorsLevel3">
+            <Resource index="Minerals" value="250"/>
+            <Resource index="Vespene" value="250"/>
+            <Button DefaultButtonFace="TerranVehicleWeaponsUltraCapacitorsLevel3" State="Restricted" Requirements="HerculesLearnVehWeap3"/>
+        </InfoArray>
+        <InfoArray index="Research10" Time="160" Upgrade="TerranVehicleArmorsVanadiumPlatingLevel1">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="TerranVehiclePlatingVanadiumPlatingLevel1" State="Restricted" Requirements="HerculesLearnVehArm1"/>
+        </InfoArray>
+        <InfoArray index="Research11" Time="190" Upgrade="TerranVehicleArmorsVanadiumPlatingLevel2">
+            <Resource index="Minerals" value="175"/>
+            <Resource index="Vespene" value="175"/>
+            <Button DefaultButtonFace="TerranVehiclePlatingVanadiumPlatingLevel2" State="Restricted" Requirements="HerculesLearnVehArm2"/>
+        </InfoArray>
+        <InfoArray index="Research12" Time="220" Upgrade="TerranVehicleArmorsVanadiumPlatingLevel3">
+            <Resource index="Minerals" value="250"/>
+            <Resource index="Vespene" value="250"/>
+            <Button DefaultButtonFace="TerranVehiclePlatingVanadiumPlatingLevel3" State="Restricted" Requirements="HerculesLearnVehArm3"/>
+        </InfoArray>
+        <InfoArray index="Research13" Time="160" Upgrade="TerranShipWeaponsUltraCapacitorsLevel1">
+            <Resource index="Minerals" value="100"/>
+            <Resource index="Vespene" value="100"/>
+            <Button DefaultButtonFace="TerranShipWeaponsUltraCapacitorsLevel1" State="Restricted" Requirements="HerculesLearnShipWeap1"/>
+        </InfoArray>
+        <InfoArray index="Research14" Time="190" Upgrade="TerranShipWeaponsUltraCapacitorsLevel2">
+            <Resource index="Minerals" value="175"/>
+            <Resource index="Vespene" value="175"/>
+            <Button DefaultButtonFace="TerranShipWeaponsUltraCapacitorsLevel2" State="Restricted" Requirements="HerculesLearnShipWeap2"/>
+        </InfoArray>
+        <InfoArray index="Research15" Time="220" Upgrade="TerranShipWeaponsUltraCapacitorsLevel3">
+            <Resource index="Minerals" value="250"/>
+            <Resource index="Vespene" value="250"/>
+            <Button DefaultButtonFace="TerranShipWeaponsUltraCapacitorsLevel3" State="Restricted" Requirements="HerculesLearnShipWeap3"/>
+        </InfoArray>
+        <InfoArray index="Research16" Time="160" Upgrade="TerranShipArmorsVanadiumPlatingLevel1">
+            <Resource index="Minerals" value="150"/>
+            <Resource index="Vespene" value="150"/>
+            <Button DefaultButtonFace="TerranShipPlatingVanadiumPlatingLevel1" State="Restricted" Requirements="HerculesLearnShipArm1"/>
+        </InfoArray>
+        <InfoArray index="Research17" Time="190" Upgrade="TerranShipArmorsVanadiumPlatingLevel2">
+            <Resource index="Minerals" value="225"/>
+            <Resource index="Vespene" value="225"/>
+            <Button DefaultButtonFace="TerranShipPlatingVanadiumPlatingLevel2" State="Restricted" Requirements="HerculesLearnShipArm2"/>
+        </InfoArray>
+        <InfoArray index="Research18" Time="220" Upgrade="TerranShipArmorsVanadiumPlatingLevel3">
+            <Resource index="Minerals" value="300"/>
+            <Resource index="Vespene" value="300"/>
+            <Button DefaultButtonFace="TerranShipPlatingVanadiumPlatingLevel3" State="Restricted" Requirements="HerculesLearnShipArm3"/>
+        </InfoArray>
+    </CAbilResearch>
 </Catalog>

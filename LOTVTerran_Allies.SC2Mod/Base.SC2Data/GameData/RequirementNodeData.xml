@@ -60,4 +60,173 @@
     <CRequirementAllowBehavior id="AllowBehaviorHerculesUnlockMarine9">
         <Link value="HerculesUnlockMarine9"/>
     </CRequirementAllowBehavior>
+    <CRequirementCountUnit id="HerculesCountShiroQueued">
+        <Count Link="Ghost2" State="QueuedOrBetter"/>
+    </CRequirementCountUnit>
+    <CRequirementNot id="HerculesNotShiroQueued">
+        <Tooltip value="RequirementNode/Tooltip/HerculesNotShiroQueued"/>
+        <OperandArray index="0" value="HerculesCountShiroQueued"/>
+    </CRequirementNot>
+    <CRequirementCountUpgrade id="HerculesCountInfWeap1Complete">
+        <Count Link="TerranInfantryWeaponsUltraCapacitorsLevel1" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="HerculesCountInfWeap1Queued">
+        <Count Link="TerranInfantryWeaponsUltraCapacitorsLevel1" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementNot id="HerculesNotInfWeap1Queued">
+        <OperandArray index="0" value="HerculesCountInfWeap1Queued"/>
+    </CRequirementNot>
+    <CRequirementCountUpgrade id="HerculesCountInfWeap2Complete">
+        <Count Link="TerranInfantryWeaponsUltraCapacitorsLevel2" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="HerculesCountInfWeap2Queued">
+        <Count Link="TerranInfantryWeaponsUltraCapacitorsLevel2" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementNot id="HerculesNotInfWeap2Queued">
+        <OperandArray index="0" value="HerculesCountInfWeap2Queued"/>
+    </CRequirementNot>
+    <CRequirementCountUpgrade id="HerculesCountInfWeap3Complete">
+        <Count Link="TerranInfantryWeaponsUltraCapacitorsLevel3" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="HerculesCountInfWeap3Queued">
+        <Count Link="TerranInfantryWeaponsUltraCapacitorsLevel3" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementNot id="HerculesNotInfWeap3Queued">
+        <OperandArray index="0" value="HerculesCountInfWeap3Queued"/>
+    </CRequirementNot>
+    <CRequirementCountUpgrade id="HerculesCountInfArm1Complete">
+        <Count Link="TerranInfantryArmorsVanadiumPlatingLevel1" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="HerculesCountInfArm1Queued">
+        <Count Link="TerranInfantryArmorsVanadiumPlatingLevel1" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementNot id="HerculesNotInfArm1Queued">
+        <OperandArray index="0" value="HerculesCountInfArm1Queued"/>
+    </CRequirementNot>
+    <CRequirementCountUpgrade id="HerculesCountInfArm2Complete">
+        <Count Link="TerranInfantryArmorsVanadiumPlatingLevel2" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="HerculesCountInfArm2Queued">
+        <Count Link="TerranInfantryArmorsVanadiumPlatingLevel2" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementNot id="HerculesNotInfArm2Queued">
+        <OperandArray index="0" value="HerculesCountInfArm2Queued"/>
+    </CRequirementNot>
+    <CRequirementCountUpgrade id="HerculesCountInfArm3Complete">
+        <Count Link="TerranInfantryArmorsVanadiumPlatingLevel3" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="HerculesCountInfArm3Queued">
+        <Count Link="TerranInfantryArmorsVanadiumPlatingLevel3" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementNot id="HerculesNotInfArm3Queued">
+        <OperandArray index="0" value="HerculesCountInfArm3Queued"/>
+    </CRequirementNot>
+    <CRequirementCountUpgrade id="HerculesCountVehWeap1Complete">
+        <Count Link="TerranVehicleWeaponsUltraCapacitorsLevel1" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="HerculesCountVehWeap1Queued">
+        <Count Link="TerranVehicleWeaponsUltraCapacitorsLevel1" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementNot id="HerculesNotVehWeap1Queued">
+        <OperandArray index="0" value="HerculesCountVehWeap1Queued"/>
+    </CRequirementNot>
+    <CRequirementCountUpgrade id="HerculesCountVehWeap2Complete">
+        <Count Link="TerranVehicleWeaponsUltraCapacitorsLevel2" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="HerculesCountVehWeap2Queued">
+        <Count Link="TerranVehicleWeaponsUltraCapacitorsLevel2" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementNot id="HerculesNotVehWeap2Queued">
+        <OperandArray index="0" value="HerculesCountVehWeap2Queued"/>
+    </CRequirementNot>
+    <CRequirementCountUpgrade id="HerculesCountVehWeap3Complete">
+        <Count Link="TerranVehicleWeaponsUltraCapacitorsLevel3" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="HerculesCountVehWeap3Queued">
+        <Count Link="TerranVehicleWeaponsUltraCapacitorsLevel3" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementNot id="HerculesNotVehWeap3Queued">
+        <OperandArray index="0" value="HerculesCountVehWeap3Queued"/>
+    </CRequirementNot>
+    <CRequirementCountUpgrade id="HerculesCountVehArm1Complete">
+        <Count Link="TerranVehicleArmorsVanadiumPlatingLevel1" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="HerculesCountVehArm1Queued">
+        <Count Link="TerranVehicleArmorsVanadiumPlatingLevel1" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementNot id="HerculesNotVehArm1Queued">
+        <OperandArray index="0" value="HerculesCountVehArm1Queued"/>
+    </CRequirementNot>
+    <CRequirementCountUpgrade id="HerculesCountVehArm2Complete">
+        <Count Link="TerranVehicleArmorsVanadiumPlatingLevel2" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="HerculesCountVehArm2Queued">
+        <Count Link="TerranVehicleArmorsVanadiumPlatingLevel2" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementNot id="HerculesNotVehArm2Queued">
+        <OperandArray index="0" value="HerculesCountVehArm2Queued"/>
+    </CRequirementNot>
+    <CRequirementCountUpgrade id="HerculesCountVehArm3Complete">
+        <Count Link="TerranVehicleArmorsVanadiumPlatingLevel3" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="HerculesCountVehArm3Queued">
+        <Count Link="TerranVehicleArmorsVanadiumPlatingLevel3" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementNot id="HerculesNotVehArm3Queued">
+        <OperandArray index="0" value="HerculesCountVehArm3Queued"/>
+    </CRequirementNot>
+    <CRequirementCountUpgrade id="HerculesCountShipWeap1Complete">
+        <Count Link="TerranShipWeaponsUltraCapacitorsLevel1" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="HerculesCountShipWeap1Queued">
+        <Count Link="TerranShipWeaponsUltraCapacitorsLevel1" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementNot id="HerculesNotShipWeap1Queued">
+        <OperandArray index="0" value="HerculesCountShipWeap1Queued"/>
+    </CRequirementNot>
+    <CRequirementCountUpgrade id="HerculesCountShipWeap2Complete">
+        <Count Link="TerranShipWeaponsUltraCapacitorsLevel2" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="HerculesCountShipWeap2Queued">
+        <Count Link="TerranShipWeaponsUltraCapacitorsLevel2" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementNot id="HerculesNotShipWeap2Queued">
+        <OperandArray index="0" value="HerculesCountShipWeap2Queued"/>
+    </CRequirementNot>
+    <CRequirementCountUpgrade id="HerculesCountShipWeap3Complete">
+        <Count Link="TerranShipWeaponsUltraCapacitorsLevel3" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="HerculesCountShipWeap3Queued">
+        <Count Link="TerranShipWeaponsUltraCapacitorsLevel3" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementNot id="HerculesNotShipWeap3Queued">
+        <OperandArray index="0" value="HerculesCountShipWeap3Queued"/>
+    </CRequirementNot>
+    <CRequirementCountUpgrade id="HerculesCountShipArm1Complete">
+        <Count Link="TerranShipArmorsVanadiumPlatingLevel1" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="HerculesCountShipArm1Queued">
+        <Count Link="TerranShipArmorsVanadiumPlatingLevel1" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementNot id="HerculesNotShipArm1Queued">
+        <OperandArray index="0" value="HerculesCountShipArm1Queued"/>
+    </CRequirementNot>
+    <CRequirementCountUpgrade id="HerculesCountShipArm2Complete">
+        <Count Link="TerranShipArmorsVanadiumPlatingLevel2" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="HerculesCountShipArm2Queued">
+        <Count Link="TerranShipArmorsVanadiumPlatingLevel2" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementNot id="HerculesNotShipArm2Queued">
+        <OperandArray index="0" value="HerculesCountShipArm2Queued"/>
+    </CRequirementNot>
+    <CRequirementCountUpgrade id="HerculesCountShipArm3Complete">
+        <Count Link="TerranShipArmorsVanadiumPlatingLevel3" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="HerculesCountShipArm3Queued">
+        <Count Link="TerranShipArmorsVanadiumPlatingLevel3" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementNot id="HerculesNotShipArm3Queued">
+        <OperandArray index="0" value="HerculesCountShipArm3Queued"/>
+    </CRequirementNot>
 </Catalog>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CButton id="Ghost2">
+        <Icon value="Assets\Textures\btn-unit-terran-ghost.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+</Catalog>

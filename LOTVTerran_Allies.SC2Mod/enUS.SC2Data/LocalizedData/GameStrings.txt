@@ -1,8 +1,12 @@
-﻿Abil/Name/TrainHercules=Train Hercules
+﻿Abil/Name/HerculesResearch=Hercules Research
+Abil/Name/TrainHercules=Train Hercules
+Button/Hotkey/Ghost2=S
+Button/Name/Ghost2=Shiro
 Button/Tooltip/Ghost2=General of a mysterious Terran armed group
 DocInfo/DescShort=Any
 DocInfo/Name=Just Another StarCraft II Mod
 Effect/Name/Diamondback2=Eviscerator (Set)
 Effect/Name/DiamondbackBeam3=Eviscerator (Beam)
+RequirementNode/Tooltip/HerculesNotShiroQueued=Shiro is already on the battlefield
 Unit/Name/Ghost2=Shiro
 Weapon/Name/Diamondback2=Modified Rail Gun

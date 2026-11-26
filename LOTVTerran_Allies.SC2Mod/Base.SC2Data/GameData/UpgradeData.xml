@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CUpgrade id="TerranVehicleWeaponsUltraCapacitorsLevel1">
+        <!--  ThorAP (High Impact mode of the Thor) - air weapon LanceMissileLaunchers, as TerranVehicleWeaponsLevel1  -->
+        <EffectArray Reference="Weapon,LanceMissileLaunchers,Level" Value="1"/>
+        <EffectArray Reference="Effect,LanceMissileLaunchersDamage,Amount" Value="2"/>
+        <AffectedUnitArray value="ThorAP"/>
+    </CUpgrade>
+    <CUpgrade id="TerranVehicleArmorsVanadiumPlatingLevel1">
+        <!--  ThorAP (High Impact Payload)  -->
+        <EffectArray Reference="Unit,ThorAP,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,ThorAP,LifeArmor" Value="1"/>
+        <EffectArray Operation="Multiply" Reference="Unit,ThorAP,LifeMax" Value="1.05"/>
+        <EffectArray Operation="Multiply" Reference="Unit,ThorAP,LifeStart" Value="1.05"/>
+        <AffectedUnitArray value="ThorAP"/>
+    </CUpgrade>
+    <CUpgrade id="TerranVehicleWeaponsUltraCapacitorsLevel2">
+        <!--  ThorAP (High Impact mode of the Thor) - air weapon LanceMissileLaunchers, as TerranVehicleWeaponsLevel2  -->
+        <EffectArray Reference="Weapon,LanceMissileLaunchers,Level" Value="1"/>
+        <EffectArray Reference="Effect,LanceMissileLaunchersDamage,Amount" Value="2"/>
+        <AffectedUnitArray value="ThorAP"/>
+    </CUpgrade>
+    <CUpgrade id="TerranVehicleArmorsVanadiumPlatingLevel2">
+        <!--  ThorAP (High Impact Payload)  -->
+        <EffectArray Reference="Unit,ThorAP,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,ThorAP,LifeArmor" Value="1"/>
+        <EffectArray Operation="Multiply" Reference="Unit,ThorAP,LifeMax" Value="1.05"/>
+        <EffectArray Operation="Multiply" Reference="Unit,ThorAP,LifeStart" Value="1.05"/>
+        <AffectedUnitArray value="ThorAP"/>
+    </CUpgrade>
+    <CUpgrade id="TerranVehicleWeaponsUltraCapacitorsLevel3">
+        <!--  ThorAP (High Impact mode of the Thor) - air weapon LanceMissileLaunchers, as TerranVehicleWeaponsLevel3  -->
+        <EffectArray Reference="Weapon,LanceMissileLaunchers,Level" Value="1"/>
+        <EffectArray Reference="Effect,LanceMissileLaunchersDamage,Amount" Value="2"/>
+        <AffectedUnitArray value="ThorAP"/>
+    </CUpgrade>
+    <CUpgrade id="TerranVehicleArmorsVanadiumPlatingLevel3">
+        <!--  ThorAP (High Impact Payload)  -->
+        <EffectArray Reference="Unit,ThorAP,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,ThorAP,LifeArmor" Value="1"/>
+        <EffectArray Operation="Multiply" Reference="Unit,ThorAP,LifeMax" Value="1.05"/>
+        <EffectArray Operation="Multiply" Reference="Unit,ThorAP,LifeStart" Value="1.05"/>
+        <AffectedUnitArray value="ThorAP"/>
+    </CUpgrade>
+</Catalog>

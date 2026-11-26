@@ -38,8 +38,8 @@
         <Sight value="11"/>
         <Food value="-2"/>
         <CostCategory value="Army"/>
-        <CostResource index="Minerals" value="200"/>
-        <CostResource index="Vespene" value="100"/>
+        <CostResource index="Minerals" value="500"/>
+        <CostResource index="Vespene" value="500"/>
         <RepairTime value="40"/>
         <AttackTargetPriority value="20"/>
         <DamageDealtXP value="1"/>
@@ -108,6 +108,7 @@
     </CUnit>
     <CUnit id="HerculesLander">
         <AbilArray Link="TrainHercules"/>
+        <AbilArray Link="HerculesResearch"/>
         <AbilArray Link="Rally"/>
         <AbilArray Link="que8"/>
         <AbilArray Link="BuildInProgress"/>
@@ -137,6 +138,14 @@
                 <Column value="2"/>
             </LayoutButtons>
             <LayoutButtons Face="Rally" Type="AbilCmd" AbilCmd="Rally,255" Row="2" Column="4"/>
+            <LayoutButtons>
+                <Face value="EngineeringBay"/>
+                <Type value="Submenu"/>
+                <SubmenuCardId value="0005"/>
+                <SubmenuIsSticky value="1"/>
+                <Row value="0"/>
+                <Column value="3"/>
+            </LayoutButtons>
         </CardLayouts>
         <CardLayouts CardId="0002">
             <LayoutButtons Face="Marine" Type="AbilCmd" AbilCmd="TrainHercules,Train1" Row="0" Column="0"/>
@@ -147,6 +156,7 @@
             <LayoutButtons Face="Reaper" Type="AbilCmd" AbilCmd="TrainHercules,Train5" Row="1" Column="0"/>
             <LayoutButtons Face="Firebat" Type="AbilCmd" AbilCmd="TrainHercules,Train3" Row="0" Column="3"/>
             <LayoutButtons Face="Ghost" Type="AbilCmd" AbilCmd="TrainHercules,Train6" Row="1" Column="1"/>
+            <LayoutButtons Face="Ghost2" Type="AbilCmd" AbilCmd="TrainHercules,Train21" Row="1" Column="2"/>
         </CardLayouts>
         <CardLayouts CardId="0003">
             <LayoutButtons Face="Vulture" Type="AbilCmd" AbilCmd="TrainHercules,Train8" Row="0" Column="0"/>
@@ -167,6 +177,28 @@
             <LayoutButtons Face="Raven" Type="AbilCmd" AbilCmd="TrainHercules,Train19" Row="1" Column="0"/>
             <LayoutButtons Face="BuildScienceVessel" Type="AbilCmd" AbilCmd="TrainHercules,Train18" Row="1" Column="1"/>
             <LayoutButtons Face="Battlecruiser" Type="AbilCmd" AbilCmd="TrainHercules,Train20" Row="1" Column="2"/>
+            <LayoutButtons Face="Cancel" Type="CancelSubmenu" Row="2" Column="4"/>
+            <LayoutButtons Face="CancelBuilding" Type="AbilCmd" AbilCmd="BuildInProgress,Cancel" Row="2" Column="4"/>
+        </CardLayouts>
+        <CardLayouts CardId="0005">
+            <LayoutButtons Face="TerranInfantryWeaponsUltraCapacitorsLevel1" Type="AbilCmd" AbilCmd="HerculesResearch,Research1" Row="0" Column="0"/>
+            <LayoutButtons Face="TerranInfantryWeaponsUltraCapacitorsLevel2" Type="AbilCmd" AbilCmd="HerculesResearch,Research2" Row="0" Column="0"/>
+            <LayoutButtons Face="TerranInfantryWeaponsUltraCapacitorsLevel3" Type="AbilCmd" AbilCmd="HerculesResearch,Research3" Row="0" Column="0"/>
+            <LayoutButtons Face="TerranInfantryArmorVanadiumPlatingLevel1" Type="AbilCmd" AbilCmd="HerculesResearch,Research4" Row="0" Column="1"/>
+            <LayoutButtons Face="TerranInfantryArmorVanadiumPlatingLevel2" Type="AbilCmd" AbilCmd="HerculesResearch,Research5" Row="0" Column="1"/>
+            <LayoutButtons Face="TerranInfantryArmorVanadiumPlatingLevel3" Type="AbilCmd" AbilCmd="HerculesResearch,Research6" Row="0" Column="1"/>
+            <LayoutButtons Face="TerranVehicleWeaponsUltraCapacitorsLevel1" Type="AbilCmd" AbilCmd="HerculesResearch,Research7" Row="1" Column="0"/>
+            <LayoutButtons Face="TerranVehicleWeaponsUltraCapacitorsLevel2" Type="AbilCmd" AbilCmd="HerculesResearch,Research8" Row="1" Column="0"/>
+            <LayoutButtons Face="TerranVehicleWeaponsUltraCapacitorsLevel3" Type="AbilCmd" AbilCmd="HerculesResearch,Research9" Row="1" Column="0"/>
+            <LayoutButtons Face="TerranVehiclePlatingVanadiumPlatingLevel1" Type="AbilCmd" AbilCmd="HerculesResearch,Research10" Row="1" Column="2"/>
+            <LayoutButtons Face="TerranVehiclePlatingVanadiumPlatingLevel2" Type="AbilCmd" AbilCmd="HerculesResearch,Research11" Row="1" Column="2"/>
+            <LayoutButtons Face="TerranVehiclePlatingVanadiumPlatingLevel3" Type="AbilCmd" AbilCmd="HerculesResearch,Research12" Row="1" Column="2"/>
+            <LayoutButtons Face="TerranShipWeaponsUltraCapacitorsLevel1" Type="AbilCmd" AbilCmd="HerculesResearch,Research13" Row="1" Column="1"/>
+            <LayoutButtons Face="TerranShipWeaponsUltraCapacitorsLevel2" Type="AbilCmd" AbilCmd="HerculesResearch,Research14" Row="1" Column="1"/>
+            <LayoutButtons Face="TerranShipWeaponsUltraCapacitorsLevel3" Type="AbilCmd" AbilCmd="HerculesResearch,Research15" Row="1" Column="1"/>
+            <LayoutButtons Face="TerranShipPlatingVanadiumPlatingLevel1" Type="AbilCmd" AbilCmd="HerculesResearch,Research16" Row="1" Column="3"/>
+            <LayoutButtons Face="TerranShipPlatingVanadiumPlatingLevel2" Type="AbilCmd" AbilCmd="HerculesResearch,Research17" Row="1" Column="3"/>
+            <LayoutButtons Face="TerranShipPlatingVanadiumPlatingLevel3" Type="AbilCmd" AbilCmd="HerculesResearch,Research18" Row="1" Column="3"/>
             <LayoutButtons Face="Cancel" Type="CancelSubmenu" Row="2" Column="4"/>
             <LayoutButtons Face="CancelBuilding" Type="AbilCmd" AbilCmd="BuildInProgress,Cancel" Row="2" Column="4"/>
         </CardLayouts>

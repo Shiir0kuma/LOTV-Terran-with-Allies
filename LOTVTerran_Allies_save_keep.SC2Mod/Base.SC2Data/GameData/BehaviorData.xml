@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CBehaviorBuff id="HerculesUnlockMarine">
+        <BehaviorFlags index="Permanent" value="1"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Terran"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HerculesUnlockMarine10">
+        <BehaviorFlags index="Permanent" value="1"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Terran"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HerculesUnlockMarine11">
+        <BehaviorFlags index="Permanent" value="1"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Terran"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HerculesUnlockMarine12">
+        <BehaviorFlags index="Permanent" value="1"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Terran"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HerculesUnlockMarine13">
+        <BehaviorFlags index="Permanent" value="1"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Terran"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HerculesUnlockMarine14">
+        <BehaviorFlags index="Permanent" value="1"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Terran"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HerculesUnlockMarine15">
+        <BehaviorFlags index="Permanent" value="1"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Terran"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HerculesUnlockMarine16">
+        <BehaviorFlags index="Permanent" value="1"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Terran"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HerculesUnlockMarine17">
+        <BehaviorFlags index="Permanent" value="1"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Terran"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HerculesUnlockMarine18">
+        <BehaviorFlags index="Permanent" value="1"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Terran"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HerculesUnlockMarine19">
+        <BehaviorFlags index="Permanent" value="1"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Terran"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HerculesUnlockMarine2">
+        <BehaviorFlags index="Permanent" value="1"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Terran"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HerculesUnlockMarine20">
+        <BehaviorFlags index="Permanent" value="1"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Terran"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HerculesUnlockMarine3">
+        <BehaviorFlags index="Permanent" value="1"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Terran"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HerculesUnlockMarine4">
+        <BehaviorFlags index="Permanent" value="1"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Terran"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HerculesUnlockMarine5">
+        <BehaviorFlags index="Permanent" value="1"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Terran"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HerculesUnlockMarine6">
+        <BehaviorFlags index="Permanent" value="1"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Terran"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HerculesUnlockMarine7">
+        <BehaviorFlags index="Permanent" value="1"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Terran"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HerculesUnlockMarine8">
+        <BehaviorFlags index="Permanent" value="1"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Terran"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HerculesUnlockMarine9">
+        <BehaviorFlags index="Permanent" value="1"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Terran"/>
+    </CBehaviorBuff>
+</Catalog>

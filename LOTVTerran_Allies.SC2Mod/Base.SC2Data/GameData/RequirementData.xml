@@ -83,4 +83,92 @@
         <EditorCategories value="Race:Terran,TechType:Unit"/>
         <NodeArray index="Show" Link="AllowBehaviorHerculesUnlockMarine10"/>
     </CRequirement>
+    <CRequirement id="HerculesTrainShiro">
+        <EditorCategories value="Race:Terran,TechType:Unit"/>
+        <NodeArray index="Use" Link="HerculesNotShiroQueued"/>
+    </CRequirement>
+    <CRequirement id="HerculesLearnInfWeap1">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="HerculesNotInfWeap1Queued"/>
+    </CRequirement>
+    <CRequirement id="HerculesLearnInfWeap2">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Use" Link="HerculesCountInfWeap1Complete"/>
+        <NodeArray index="Show" Link="HerculesNotInfWeap2Queued"/>
+    </CRequirement>
+    <CRequirement id="HerculesLearnInfWeap3">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Use" Link="HerculesCountInfWeap2Complete"/>
+        <NodeArray index="Show" Link="HerculesNotInfWeap3Queued"/>
+    </CRequirement>
+    <CRequirement id="HerculesLearnInfArm1">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="HerculesNotInfArm1Queued"/>
+    </CRequirement>
+    <CRequirement id="HerculesLearnInfArm2">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Use" Link="HerculesCountInfArm1Complete"/>
+        <NodeArray index="Show" Link="HerculesNotInfArm2Queued"/>
+    </CRequirement>
+    <CRequirement id="HerculesLearnInfArm3">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Use" Link="HerculesCountInfArm2Complete"/>
+        <NodeArray index="Show" Link="HerculesNotInfArm3Queued"/>
+    </CRequirement>
+    <CRequirement id="HerculesLearnVehWeap1">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="HerculesNotVehWeap1Queued"/>
+    </CRequirement>
+    <CRequirement id="HerculesLearnVehWeap2">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Use" Link="HerculesCountVehWeap1Complete"/>
+        <NodeArray index="Show" Link="HerculesNotVehWeap2Queued"/>
+    </CRequirement>
+    <CRequirement id="HerculesLearnVehWeap3">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Use" Link="HerculesCountVehWeap2Complete"/>
+        <NodeArray index="Show" Link="HerculesNotVehWeap3Queued"/>
+    </CRequirement>
+    <CRequirement id="HerculesLearnVehArm1">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="HerculesNotVehArm1Queued"/>
+    </CRequirement>
+    <CRequirement id="HerculesLearnVehArm2">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Use" Link="HerculesCountVehArm1Complete"/>
+        <NodeArray index="Show" Link="HerculesNotVehArm2Queued"/>
+    </CRequirement>
+    <CRequirement id="HerculesLearnVehArm3">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Use" Link="HerculesCountVehArm2Complete"/>
+        <NodeArray index="Show" Link="HerculesNotVehArm3Queued"/>
+    </CRequirement>
+    <CRequirement id="HerculesLearnShipWeap1">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="HerculesNotShipWeap1Queued"/>
+    </CRequirement>
+    <CRequirement id="HerculesLearnShipWeap2">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Use" Link="HerculesCountShipWeap1Complete"/>
+        <NodeArray index="Show" Link="HerculesNotShipWeap2Queued"/>
+    </CRequirement>
+    <CRequirement id="HerculesLearnShipWeap3">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Use" Link="HerculesCountShipWeap2Complete"/>
+        <NodeArray index="Show" Link="HerculesNotShipWeap3Queued"/>
+    </CRequirement>
+    <CRequirement id="HerculesLearnShipArm1">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Show" Link="HerculesNotShipArm1Queued"/>
+    </CRequirement>
+    <CRequirement id="HerculesLearnShipArm2">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Use" Link="HerculesCountShipArm1Complete"/>
+        <NodeArray index="Show" Link="HerculesNotShipArm2Queued"/>
+    </CRequirement>
+    <CRequirement id="HerculesLearnShipArm3">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Use" Link="HerculesCountShipArm2Complete"/>
+        <NodeArray index="Show" Link="HerculesNotShipArm3Queued"/>
+    </CRequirement>
 </Catalog>

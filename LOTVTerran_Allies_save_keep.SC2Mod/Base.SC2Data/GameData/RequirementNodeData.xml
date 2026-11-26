@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CRequirementAllowBehavior id="AllowBehaviorHerculesUnlockMarine">
+        <Link value="HerculesUnlockMarine"/>
+    </CRequirementAllowBehavior>
+    <CRequirementAllowBehavior id="AllowBehaviorHerculesUnlockMarine10">
+        <Link value="HerculesUnlockMarine10"/>
+    </CRequirementAllowBehavior>
+    <CRequirementAllowBehavior id="AllowBehaviorHerculesUnlockMarine11">
+        <Link value="HerculesUnlockMarine11"/>
+    </CRequirementAllowBehavior>
+    <CRequirementAllowBehavior id="AllowBehaviorHerculesUnlockMarine12">
+        <Link value="HerculesUnlockMarine12"/>
+    </CRequirementAllowBehavior>
+    <CRequirementAllowBehavior id="AllowBehaviorHerculesUnlockMarine13">
+        <Link value="HerculesUnlockMarine13"/>
+    </CRequirementAllowBehavior>
+    <CRequirementAllowBehavior id="AllowBehaviorHerculesUnlockMarine14">
+        <Link value="HerculesUnlockMarine14"/>
+    </CRequirementAllowBehavior>
+    <CRequirementAllowBehavior id="AllowBehaviorHerculesUnlockMarine15">
+        <Link value="HerculesUnlockMarine15"/>
+    </CRequirementAllowBehavior>
+    <CRequirementAllowBehavior id="AllowBehaviorHerculesUnlockMarine16">
+        <Link value="HerculesUnlockMarine16"/>
+    </CRequirementAllowBehavior>
+    <CRequirementAllowBehavior id="AllowBehaviorHerculesUnlockMarine17">
+        <Link value="HerculesUnlockMarine17"/>
+    </CRequirementAllowBehavior>
+    <CRequirementAllowBehavior id="AllowBehaviorHerculesUnlockMarine18">
+        <Link value="HerculesUnlockMarine18"/>
+    </CRequirementAllowBehavior>
+    <CRequirementAllowBehavior id="AllowBehaviorHerculesUnlockMarine19">
+        <Link value="HerculesUnlockMarine19"/>
+    </CRequirementAllowBehavior>
+    <CRequirementAllowBehavior id="AllowBehaviorHerculesUnlockMarine2">
+        <Link value="HerculesUnlockMarine2"/>
+    </CRequirementAllowBehavior>
+    <CRequirementAllowBehavior id="AllowBehaviorHerculesUnlockMarine20">
+        <Link value="HerculesUnlockMarine20"/>
+    </CRequirementAllowBehavior>
+    <CRequirementAllowBehavior id="AllowBehaviorHerculesUnlockMarine3">
+        <Link value="HerculesUnlockMarine3"/>
+    </CRequirementAllowBehavior>
+    <CRequirementAllowBehavior id="AllowBehaviorHerculesUnlockMarine4">
+        <Link value="HerculesUnlockMarine4"/>
+    </CRequirementAllowBehavior>
+    <CRequirementAllowBehavior id="AllowBehaviorHerculesUnlockMarine5">
+        <Link value="HerculesUnlockMarine5"/>
+    </CRequirementAllowBehavior>
+    <CRequirementAllowBehavior id="AllowBehaviorHerculesUnlockMarine6">
+        <Link value="HerculesUnlockMarine6"/>
+    </CRequirementAllowBehavior>
+    <CRequirementAllowBehavior id="AllowBehaviorHerculesUnlockMarine7">
+        <Link value="HerculesUnlockMarine7"/>
+    </CRequirementAllowBehavior>
+    <CRequirementAllowBehavior id="AllowBehaviorHerculesUnlockMarine8">
+        <Link value="HerculesUnlockMarine8"/>
+    </CRequirementAllowBehavior>
+    <CRequirementAllowBehavior id="AllowBehaviorHerculesUnlockMarine9">
+        <Link value="HerculesUnlockMarine9"/>
+    </CRequirementAllowBehavior>
+</Catalog>
