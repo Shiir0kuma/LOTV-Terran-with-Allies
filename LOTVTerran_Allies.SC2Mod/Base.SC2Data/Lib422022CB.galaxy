@@ -103,7 +103,7 @@ bool lib422022CB_gt_UnlockUnits_Func (bool testConds, bool runActions) {
 //--------------------------------------------------------------------------------------------------
 void lib422022CB_gt_UnlockUnits_Init () {
     lib422022CB_gt_UnlockUnits = TriggerCreate("lib422022CB_gt_UnlockUnits_Func");
-    TriggerAddEventMapInit(lib422022CB_gt_UnlockUnits);
+    TriggerAddEventTimeElapsed(lib422022CB_gt_UnlockUnits, 0.0, c_timeGame);
 }
 
 //--------------------------------------------------------------------------------------------------
@@ -111,12 +111,35 @@ void lib422022CB_gt_UnlockUnits_Init () {
 //--------------------------------------------------------------------------------------------------
 bool lib422022CB_gt_UnlockUpgrades_Func (bool testConds, bool runActions) {
     // Automatic Variable Declarations
+    // Actions
+    if (!runActions) {
+        return true;
+    }
+
+    BankLoad("TerranLOTVAllies", 1);
+    if ((BankKeyExists(BankLastCreated(), "Upgrades", "Stimpack") == true)) {
+        libNtve_gf_SetUpgradeLevelForPlayer(1, "Stimpack", BankValueGetAsInt(BankLastCreated(), "Upgrades", "Stimpack"));
+    }
+
+    if ((BankKeyExists(BankLastCreated(), "Upgrades", "ShieldWall") == true)) {
+        libNtve_gf_SetUpgradeLevelForPlayer(1, "ShieldWall", BankValueGetAsInt(BankLastCreated(), "Upgrades", "ShieldWall"));
+    }
+
+    if ((BankKeyExists(BankLastCreated(), "Upgrades", "StabilizerMedPacks") == true)) {
+        libNtve_gf_SetUpgradeLevelForPlayer(1, "StabilizerMedPacks", BankValueGetAsInt(BankLastCreated(), "Upgrades", "StabilizerMedPacks"));
+    }
+
+    if ((BankKeyExists(BankLastCreated(), "Upgrades", "AdvancedMedicTraining") == true)) {
+        libNtve_gf_SetUpgradeLevelForPlayer(1, "AdvancedMedicTraining", BankValueGetAsInt(BankLastCreated(), "Upgrades", "AdvancedMedicTraining"));
+    }
+
     return true;
 }
 
 //--------------------------------------------------------------------------------------------------
 void lib422022CB_gt_UnlockUpgrades_Init () {
     lib422022CB_gt_UnlockUpgrades = TriggerCreate("lib422022CB_gt_UnlockUpgrades_Func");
+    TriggerAddEventTimeElapsed(lib422022CB_gt_UnlockUpgrades, 0.0, c_timeGame);
 }
 
 //--------------------------------------------------------------------------------------------------
